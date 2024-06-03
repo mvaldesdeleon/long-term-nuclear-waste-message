@@ -1,11 +1,5 @@
 let observer = new MutationObserver(mutations => {
-  for (let mutation of mutations) {
-    // for (let addedNode of mutation.addedNodes) {
-      // if (addedNode.nodeName === "ARTICLE") {
-        swapMessages();
-      // }
-    // }
-  }
+  swapMessages();
 });
 
 observer.observe(document, { childList: true, subtree: true });
