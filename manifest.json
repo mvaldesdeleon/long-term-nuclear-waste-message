@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Long-term nuclear waste warning messages",
-  "version": "1.0",
+  "version": "0.9",
   "description": "Replace Twitter.com warning about content from blocked accounts with a more meaningful message.",
   "icons": {
     "16": "images/icon-16.png",
